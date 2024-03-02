@@ -1,5 +1,5 @@
 import bcrypt from "bcrypt";
-import prismaDB from "@/lib/prismaDB";
+import prismaDB from "@/lib/prismaDBB";
 
 module.exports = async function handler(req, res) {
     if (req.method !== "POST") {
